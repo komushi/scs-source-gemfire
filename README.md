@@ -33,7 +33,7 @@ docker push komushi/scs-source-gemfire
 ## 3. Run in Java CLI
 ### 3-1. Command to start jar
 ```
-java -jar target/scs-sink-gemfire-1.0.0.RELEASE.jar --spring.cloud.stream.defaultBinder=<rabbit/kinesis/kafka> --gemfire.pool.host-addresses=<gemfire-cacheserver-address:port>
+java -jar target/scs-source-gemfire-1.0.0.RELEASE.jar --spring.cloud.stream.defaultBinder=<rabbit/kinesis/kafka> --gemfire.pool.host-addresses=<gemfire-cacheserver-address:port>
 ```
 
 ### 3-2. Test with scs-source-http and scs-processor-geocoding-reverse
