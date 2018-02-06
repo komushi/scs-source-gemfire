@@ -73,7 +73,7 @@ docker run komushi/scs-sink-gemfire --spring.cloud.stream.defaultBinder=kinesis 
 ```
 server.port=9310
 spring.cloud.stream.defaultBinder=rabbit
-spring.cloud.stream.bindings.output.destination=gemfire_topdropoff
+spring.cloud.stream.bindings.output.destination=gemfire_topoute
 cloud.aws.region.static=ap-northeast-1
 gemfire.pool.connect-type=server
 gemfire.pool.host-addresses=localhost:40404
